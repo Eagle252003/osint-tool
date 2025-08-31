@@ -54,16 +54,16 @@ sudo apt update
 sudo apt install -y python3 python3-pip git curl jq whois nmap whatweb wkhtmltopdf chromium-browser golang
 pip3 install phonenumbers holehe maigret shot-scraper shodan
 
-# 🚀Usage
+## 🚀Usage
 Phone number OSINT
 
 ./osint-tool.sh +919876543210
 
-Website OSINT
+## Website OSINT
 
 ./osint-tool.sh https://example.com
 
-Website OSINT with Shodan
+## Website OSINT with Shodan
 
 ./osint-tool.sh --shodan YOUR_API_KEY https://example.com
 
